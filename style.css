@@ -24,6 +24,11 @@ img {
 }
 /* End of Reset */
 
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norse-Bold.woff2") format("woff2");
+}
+
 body {
     display: flex;
     
@@ -50,9 +55,19 @@ body {
 /* Styles for content of info container */
 .transparent-box {
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.transparent-box img {
+    height: 160px;
+    width: auto;
 }
 
 .transparent-box p {
     color: white;
+    font-family: "Norse";
+    font-size: 120px;
 }
