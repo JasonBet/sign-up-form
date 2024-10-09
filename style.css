@@ -22,3 +22,25 @@ img {
   display: block;
   max-inline-size: 100%;
 }
+/* End of Reset */
+
+body {
+    display: flex;
+    
+}
+
+.info {
+    height: 100vh;
+    width: 35vw;
+    min-width: 350px;
+    background-color: red;
+    flex-shrink: 0;
+}
+
+.form {
+    height: 100vh;
+    width: 100%;
+    min-width: 650px;
+    background-color: blue;
+    flex-shrink: 0;
+}
