@@ -92,16 +92,16 @@ body {
 
 /* Styles for content of form container */
 .memo {
-  background-color: blue;
+  background-color: rgb(240, 245, 241);
   flex-grow: 1;
 }
 
 .form-inputs {
-  background-color: yellow;
+  background-color: white;
   height: 300px;
 }
 
 .submission {
-  background-color: rebeccapurple;
+  background-color: rgb(240, 245, 241);
   flex-grow: 1;
 }
