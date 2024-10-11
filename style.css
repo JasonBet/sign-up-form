@@ -36,7 +36,7 @@ body {
 
 .info {
     height: 100vh;
-    width: 35vw;
+    width: 30vw;
     min-width: 350px;
     background-color: red;
     flex-shrink: 0;
@@ -50,10 +50,12 @@ body {
 
 .form {
     height: 100vh;
-    width: 65vw;
+    width: 70vw;
     min-width: 650px;
-    background-color: blue;
     flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
 }
 
 /* Styles for content of info container */
@@ -86,4 +88,20 @@ body {
 
 .credit a {
   color: inherit;
+}
+
+/* Styles for content of form container */
+.memo {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.form-inputs {
+  background-color: yellow;
+  height: 300px;
+}
+
+.submission {
+  background-color: rebeccapurple;
+  flex-grow: 1;
 }
