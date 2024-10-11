@@ -62,24 +62,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 200px;
 }
 
 .transparent-box img {
-    height: 160px;
+    height: 150px;
     width: auto;
+    
 }
 
 .logo-name {
     color: white;
     font-family: "Norse";
-    font-size: 120px;
+    font-size: 110px;
 }
 
 .credit {
   color: white;
   text-decoration: none;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .credit a {
