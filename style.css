@@ -142,6 +142,23 @@ form {
 input {
   width: 140%;
   padding: 4px;
+  border: 2px solid #E5E7EB;
+}
+
+input:invalid {
+  border: 2px solid red;
+  box-shadow: 0px 2px 10px rgba(40, 40, 40, 0.3);
+  outline: none;
+}
+
+input:invalid::after {
+  content: "*Passwords do not match";
+}
+
+input:focus {
+  border: 2px solid blue;
+  box-shadow: 0px 2px 10px rgba(40, 40, 40, 0.3);
+  outline: none;
 }
 
 label {
