@@ -109,6 +109,7 @@ body {
   margin-right: 20%;
 }
 
+/* Form styling */
 .form-inputs {
   background-color: white;
   height: 30%;
@@ -135,7 +136,12 @@ form {
   box-sizing: border-box;
   padding-right: 40%;
   flex-flow: row wrap;
-  justify-content: space-between;
+  gap: 20px 140px;
+}
+
+input {
+  width: 140%;
+  padding: 4px;
 }
 
 label {
